@@ -68,7 +68,9 @@ main {
 .main-content {
     flex: 3;
 }
-
+.main h1{
+    color: #6D5843;
+}
 .main-content article {
     background-color: #FFF3E0;
     margin-bottom: 20px;
