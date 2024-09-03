@@ -3,7 +3,292 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Análisis de la Tendencia de Ventas de Libros</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>¿Estamos Viviendo Entre los Futuros Clásicos Literarios?</title>
+    <link rel="stylesheet" href="styles1.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+<body>
+    <header>
+        <div class="top-bar">
+            <a href="#">Literatura Clásica</a>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="main-content">
+            <article>
+                <h1>¿Estamos Viviendo Entre los Futuros Clásicos Literarios?</h1>
+                <section id="intro">
+                    <div class="article-content">
+                        <p>
+                            En una tarde tranquila, te encuentras en una librería que, a simple vista, parece ser como cualquier otra. Sin embargo, hay algo en el ambiente que te invita a explorar más allá de las estanterías habituales. El aroma a papel nuevo y a café recién hecho flota en el aire, creando un ambiente acogedor que hace que quieras quedarte más tiempo del planeado. </p>
+                        <img src="Captura de pantalla 2016-11-22 a las 9.17.14.png" alt="Librería">
+                        <p>Mientras caminas entre los pasillos, tus dedos rozan las cubiertas de los libros, cada uno con una historia única esperando ser descubierta. Pasas por los bestsellers de siempre, aquellos que han estado en las listas durante semanas, y te detienes ante una pila de libros con cubiertas llamativas que parecen gritar por atención. Los colores vivos, los diseños intrigantes y las tipografías elegantes te llaman, y es imposible no sucumbir a la tentación de al menos hojear uno.</p>
+                        <p>Tomas el primer libro de la pila. Es de un autor que no reconoces, pero la sinopsis en la contraportada te intriga. Es una historia sobre una ciudad olvidada, donde los recuerdos se desvanecen como la niebla al amanecer. Das la vuelta al libro y lees las primeras líneas. El lenguaje es poético, casi hipnótico, y te encuentras sumergido en un mundo que parece tan real como el que te rodea</p>
+                    </div>
+                </section>
+
+                <section id="success-today">
+                    <h2>El Éxito de Hoy: ¿Un Clásico del Mañana?</h2>
+                    <p>
+        
+
+                        Mientras sigues explorando, te preguntas: "¿Podría uno de estos libros ser un clásico en el futuro?" Esta pregunta resuena en tu mente, ya que te recuerda que los grandes clásicos literarios a menudo comienzan como simples novedades en los estantes de una librería. A lo largo de la historia, muchos de los libros que hoy consideramos clásicos fueron, en su tiempo, poco comprendidos o incluso rechazados por la crítica. Sin embargo, algunos lograron captar el espíritu de su época de una manera tan profunda que, con el tiempo, su relevancia trascendió generaciones.</p>
+    <p> Pero, ¿cómo saber cuáles de los éxitos literarios contemporáneos tendrán ese destino? Un clásico, además de recibir buenas críticas, debe marcar a un gran grupo de personas, de ahí que surja su popularidad. Y en el ámbito literario, esta popularidad está íntimamente ligada al número de ejemplares que vende. Con el propósito de encontrar una respuesta a esta interrogante, exploraste los 100 bestsellers de cada año publicados por Amazon, sin distinción de géneros o formato </p>
+    <p>En los últimos 24 años, han sido muchos los títulos que han desfilado por esta lista, pero si te enfocas en los 15 libros que más han aparecido en este período de tiempo, encontrarás que 9 de ellos son de <span style="color: #FF5733;">desarrollo personal </span> (en diferentes ámbitos, ya sea empresarial, espiritual, económico), 5 son libros para <span style="color: #334bff;;">niños</span> y solo uno es de ficción.</p>
+<div class="ranking-container">
+    <h2>Ranking de Ventas de Libros en Amazon desde 2000</h2>
+    <div class="ranking-grid">
+        
+        <div class="ranking-item" style="border-color: #FF5733;">
+            <div class="ranking-number">1</div>
+            <img src="imágenes\images (44).jpg" alt="The Four Agreements">
+            <div class="book-info">
+                <h2>The Four Agreements</h2>
+                <p>Autor: Don Miguel Ruiz</p>
+            </div>
+        </div>
+        <div class="ranking-item" style="border-color: #334bff;">
+            <div class="ranking-number">2</div>
+            <img src="imágenes\il_570xN.3178140373_lyy3.webp" alt="Oh, the Places You'll Go">
+            <div class="book-info">
+                <h2>Oh, the Places You'll Go</h2>
+                <p>Autor: Dr Seuss</p>
+            </div>
+        </div><div class="ranking-item" style="border-color: #FF5733;">
+            <div class="ranking-number">3</div>
+            <img src="imágenes\images (55).jpg" alt="The Five Dysfunctions of a Team">
+            <div class="book-info">
+                <h2>The Five Dysfunctions of a Team</h2>
+                <p>Autor: Patrick M. Lencioni</p>
+            </div>
+        </div><div class="ranking-item" style="border-color: #FF5733;">
+            <div class="ranking-number">4</div>
+            <img src="imágenes\71LhjimPd8L.jpg" alt="Good to Great">
+            <div class="book-info">
+                <h2>Good to Great</h2>
+                <p>Autor: Jim Collins</p>
+            </div>
+        </div><div class="ranking-item" style="border-color:  #334bff">
+            <div class="ranking-number">5</div>
+            <img src="imágenes\Goodnightmoon.jpg" alt="Goodnight Moon">
+            <div class="book-info">
+                <h2>Goodnight Moon</h2>
+                <p>Autor: Margaret Wise Brown</p>
+
+            </div>
+        </div><div class="ranking-item" style="border-color: #FF5733;">
+            <div class="ranking-number">6</div>
+            <img src="imágenes\images (33).jpg" alt="The 7 Habits of Highly Effective People">
+            <div class="book-info">
+                <h2>The 7 Habits of Highly Effective People</h2>
+                <p>Autor: Stephen R. Covey</p>
+            </div>
+        </div><div class="ranking-item" style="border-color: #FF5733;">
+            <div class="ranking-number">7</div>
+            <img src="imágenes\images (22).jpg" alt="StrengthsFinder 2.0">
+            <div class="book-info">
+                <h2>StrengthsFinder 2.0</h2>
+                <p>Autor: Gallup</p>
+            </div>
+        </div><div class="ranking-item" style="border-color:  #334bff;">
+            <div class="ranking-number">8</div>
+            <img src="imágenes\images (111).jpg" alt="The Very Hungry Caterpillar">
+            <div class="book-info">
+                <h2>The Very Hungry Caterpillar</h2>
+                <p>Autor:Eric Carle</p>
+            </div>
+        </div><div class="ranking-item" style="border-color: #FF5733;">
+            <div class="ranking-number">9</div>
+            <img src="imágenes\how-to-win-friends-and-influence-people-9781982171452_hr.jpg" alt="How to Win Friends & Influence People">
+            <div class="book-info">
+                <h2>How to Win Friends & Influence People</h2>
+                <p>Autor: Dale Carnegie</p>
+            </div>
+        </div>
+        <div class="ranking-item" style="border-color: #3f1309;">
+            <div class="ranking-number">10</div>
+            <img src="imágenes\images1.jpg" alt="To Kill a Mockingbird">
+            <div class="book-info">
+                <h2>To Kill a Mockingbird</h2>
+                <p>Autor: Harper Lee</p>
+            </div>
+        </div>
+        <div class="ranking-item" style="border-color: #334bff;">
+            <div class="ranking-number">11</div>
+            <img src="imágenes\81kZ3Gl3WKL._AC_UF1000,1000_QL80_.jpg" alt="Brown Bear, Brown Bear, What Do You See?">
+            <div class="book-info">
+                <h2>Brown Bear, Brown Bear, What Do You See? </h2>
+                <p>Autor: Bill Martin Jr.</p>
+            </div>
+        </div><div class="ranking-item" style="border-color: #FF5733;">
+            <div class="ranking-number">12</div>
+            <img src="imágenes\original-2294913-1.jpg" alt="The Tipping Point">
+            <div class="book-info">
+                <h2>The Tipping Point</h2>
+                <p>Autor: Malcolm Gladwell</p>
+            </div>
+        </div><div class="ranking-item" style="border-color: #FF5733;">
+            <div class="ranking-number">13</div>
+            <img src="imágenes\71vfjx-h4wL._AC_UF1000,1000_QL80_.jpg" alt="Who Moved My Cheese">
+            <div class="book-info">
+                <h2>Who Moved My Cheese</h2>
+                <p>Autor: Spencer Johnson</p>
+            </div>
+        </div><div class="ranking-item" style="border-color: #FF5733;">
+            <div class="ranking-number">14</div>
+            <img src="imágenes\GUEST_6a926dda-71d7-4472-bb21-e4834a4e3c1c.avif" alt="What to Expect When You're Expecting">
+            <div class="book-info">
+                <h2>What to Expect When You're Expecting</h2>
+                <p>Autor: Heidi Murkoff</p>
+            </div>
+        </div><div class="ranking-item" style="border-color: #334bff;">
+            <div class="ranking-number">15</div>
+            <img src="imágenes\810k-3rpXSL._AC_UF1000,1000_QL80_.jpg" alt="Love You Forever">
+            <div class="book-info">
+                <h2>Love You Forever</h2>
+                <p>Autor: Robert Munsch</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+                </section>
+
+                <section id="popularity-vs-quality">
+                    <h2>El Cruce de Caminos: Popularidad y Calidad</h2>
+                    <p>
+                        Te detienes a pensar: "El éxito de hoy, ¿podría ser un clásico del mañana?" Como se ha dicho, un clásico es mucho más que su popularidad; depende en gran parte de su crítica. Es interesante observar cómo ciertos libros aparecen tanto en la lista de más vendidos de Amazon como en la lista de libros notables del New York Times. Estos títulos no solo capturan la atención del público general, sino que también reciben elogios de la crítica, una combinación que podría señalar su potencial para perdurar en el tiempo                    </p>
+
+                    <p>Los Notable Books de NYT, publicados cada año desde 2000, son una selección de aproximadamente 90 libros divididos en categorías de No Ficción y Ficción. Al comparar la aparición de los 15 libros más vendidos con esta lista de libros notables, se eliminan aquellos que no se publicaron dentro del período de tiempo estudiado, quedando solo con 5 ejemplares, de los cuales solo uno, The Tipping Point de Malcolm Gladwell, aparece en ambas.</p>
+
+                    <p>A pesar de esto, sin perder la esperanza, comparas los títulos que han aparecido en ambas listas sin importar su frecuencia y te encuentras con una lista más amplia de 25 ejemplares(puede verlos más abajo). Esto sugiere que, aunque la popularidad es un factor importante, no es el único indicativo de lo que podría convertirse en un clásico.</p>
+                   
+                   
+                </section>
+                <div class="spiral-container">
+                    <div class="book" id="book1">
+                        <img src="imágenes\original-2294913-1.jpg" alt="The Tipping Point">
+                    </div>
+                    <div class="book hidden" id="book2">
+                        <img src="imágenes\download (1).jpg" alt="Harry Potter y el príncipe mestizo">
+                    </div>
+                    <div class="book hidden" id="book3">
+                        <img src="imágenes\download.jpg" alt="Harry Potter y las reliquias de la muerte">
+                    </div>
+                    <div class="book hidden" id="book4">
+                        <img src="imágenes\images.jpg" alt="Back When We Were Grownups">
+                    </div>
+                    <div class="book hidden" id="book5">
+                        <img src="imágenes\images (11).jpg" alt="How to Be an Antiracist">
+                    </div>
+                    <div class="book hidden" id="book">
+                        <img src="imágenes\images (10).jpg" alt="When Breath Becomes Air">
+                    </div>
+                    <div class="book hidden" id="book7">
+                        <img src="imágenes\images (9).jpg" alt="Born to Run">
+                    </div>
+                    <div class="book hidden" id="book8">
+                        <img src="imágenes\images (8).jpg" alt="Wolf Hall">
+                    </div>
+                    <div class="book hidden" id="book9">
+                        <img src="imágenes\images (7).jpg" alt="Lisey's Story">
+                    </div>
+                    <div class="book hidden" id="book10">
+                        <img src="imágenes\images (6).jpg" alt="Holly">
+                    </div>
+                    <div class="book hidden" id="book11">
+                        <img src="imágenes\images (5).jpg" alt="Plan of Attack">
+                    </div>
+                    <div class="book hidden" id="book12">
+                        <img src="imágenes\images (4).jpg" alt="Theodore Rex">
+                    </div>
+                    <div class="book hidden" id="book13">
+                        <img src="imágenes\images (3).jpg" alt="The Dive From Clausen's Pier">
+                    </div>
+                    <div class="book hidden" id="book14">
+                        <img src="imágenes\images (2).jpg" alt="Blessings">
+                    </div>
+                    <div class="book hidden" id="book15">
+                        <img src="imágenes\images (1).jpg" alt="The Bonesetter's Daughter">
+                    </div>
+                    
+                    <div class="book hidden" id="book16">
+                        <img src="imágenes\A1MrxsO93VL._AC_UF1000,1000_QL80_.jpg" alt="Life">
+                    </div>
+                    <div class="book hidden" id="book17">
+                        <img src="imágenes\717336CIcWL._AC_UF1000,1000_QL80_.jpg" alt="My Life">
+                    </div>
+                    <div class="book hidden" id="book18">
+                        <img src="imágenes\81E9oNSK3bL._AC_UF1000,1000_QL80_.jpg" alt="Life of Pi">
+                    </div>
+                    <div class="book hidden" id="book19">
+                        <img src="imágenes\81DXOE2z40L._AC_UF1000,1000_QL80_.jpg" alt="The Emperor of Ocean Park">
+                    </div>
+                    <div class="book hidden" id="book20">
+                        <img src="imágenes\81cJTmFpG-L._AC_UF1000,1000_QL80_.jpg" alt="Becoming">
+                    </div><div class="book hidden" id="book21">
+                        <img src="imágenes\71k2qgG4UKL._AC_UF1000,1000_QL80_.jpg" alt="What Happened">
+                    </div>
+                    <div class="book hidden" id="book22">
+                        <img src="imágenes\71If19m2RXL._AC_UF1000,1000_QL80_.jpg" alt="A Little Life">
+                    </div>
+                    <div class="book hidden" id="book23">
+                        <img src="imágenes\51ymen1ByKL._AC_UF1000,1000_QL80_.jpg" alt="A Short History of Nearly Everything">
+                    </div>
+                    <div class="book hidden" id="book24">
+                        <img src="imágenes\71iBpMJMqxL._AC_UF1000,1000_QL80_.jpg" alt="How Doctors Think">
+                    </div>
+                    <div class="book hidden" id="book25">
+                        <img src="imágenes\71asa2CmdCL._AC_UF1000,1000_QL80_.jpg" alt="The Immortal Life of Henrietta Lacks">
+                    </div>
+                    
+                    <!-- Añade más libros según sea necesario -->
+                </div>
+                
+                <section id="Author">
+                    <h2>Autores</h2>
+                    <p>
+                        Sin embargo, si un clásico es un clásico, es en gran parte debido a la mano maestra que lo alimentó. Y la expresión: "Lo escribió este autor, seguro está bueno" debe resultarte bastante familiar. Al buscar los autores más vendidos, no fue una sorpresa encontrarse con que J.K. Rowling lidera la lista, apareciendo 44 veces, casi el doble del autor de <span style="font-family: cursive;">The Brethren</span>, John Grisham, con 13 títulos distintos, siendo el más frecuente  <span style="font-family: cursive;">Harry Potter y la piedra filosofal.</span>
+                    </p>
+
+                    <p>Harry Potter, que muchos jóvenes conocieron y amaron desde su publicación, no solo se convirtió en un fenómeno de ventas, sino que también ha dejado una huella indeleble en la cultura popular. Con millones de copias vendidas, la heptalogía se posiciona como un favorito entre lectores de todas las edades. De hecho, en la lista de Los Mejores Libros del Siglo 21 en Goodgreads gracias a los votos de los lectores, en el top 10 se encuentran 3 de sus libros:  <span style="font-family: cursive;">Harry Potter y las reliquias de la muerte</span>,  <span style="font-family: cursive;">Harry Potter y el príncipe mestizo</span> y <span style="font-family: cursive;">Harry Potter y la orden del Phoenix</span>  , ocupando las posiciones 1, 5 y 6, respectivamente.</p> Estos perimeros libros también aparecen en los Notable Books de NYT lo que pudiera dar una gran idea de que estos al reunir tanto ventas como buenas críticas en diferectes sectores llegarán a ser leídos por muchos otros a lo largo del tiempo.
+
+
+                    
+
+                </section>
+                <section id="future-classics">
+                    <h2>Lo Que Viene: Apuestas al Futuro</h2>
+                    <p>
+                        Al analizar los datos de ventas y críticas de los últimos 23 años, puedes ver patrones interesantes. Libros que combinan una narrativa poderosa con una resonancia emocional duradera son los que tienen más probabilidades de ser recordados. La popularidad inicial es un buen indicativo, pero no lo es todo. Es la profundidad de su impacto lo que define su legado.
+                    </p>
+                    <p>Te das cuenta de que estamos viviendo entre futuros clásicos literarios. Como lectores, tenemos la oportunidad única de ser testigos de la creación de los clásicos del mañana. Los libros que hoy encontramos en los estantes y que devoramos con pasión podrían ser los mismos que las generaciones futuras estudiarán y admirarán.
+                    </p>
+                    <p>Entonces, al salir de la librería con tus nuevos libros en mano, no puedes evitar sonreír. Te preguntas una vez más: "¿Podría estar leyendo un clásico en proceso?" Y mientras la tarde se convierte en noche, caminas con la certeza de que, en algún lugar de esas páginas, tal vez hayas encontrado una obra que, con el tiempo, dejará una huella tan profunda como las que has admirado durante toda tu vida.</p>
+                    <h3>La próxima vez que tomes un libro popular, pregúntate: ¿estaré leyendo un clásico en proceso?</h3>
+                  
+                </section>
+            </article>
+        </div>
+
+    
+    </main>
+
+    <footer>
+        <h2>Metodología</h2>
+        <p>Para este artículo se utilizaron datos de Best Sellers de  Amazon y de los Notable Books de NYt</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
